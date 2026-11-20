@@ -1,0 +1,28 @@
+{
+  "name": "cis3339-homework1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Management System - Vue 3 (Composition API, Vue Router, Pinia) + Express + MongoDB",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --config frontend/vite.config.js",
+    "start": "node backend/server.js",
+    "dev:server": "node --watch backend/server.js",
+    "dev:client": "vite --config frontend/vite.config.js"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "pinia": "^3.0.1",
+    "vite": "^6.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}
